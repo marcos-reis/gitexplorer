@@ -1,0 +1,50 @@
+{
+  "workbench.colorTheme": "Dracula",
+
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontWeightBold": "400",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+
+  "editor.renderLineHighlight": "gutter",
+
+  "javascript.updateImportsOnFileMove.enabled":"never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled":false,
+  "editor.rulers": [80, 120],
+  "emmet.triggerExpansionOnTab": true,
+   "emmet.includeLanguages": {
+       "javascript": "javascriptreact"
+    },
+  "editor.suggestSelection": "first",
+
+  "terminal.integrated.rendererType": "dom",
+
+  "eslint.enable": true,
+  "eslint.codeActionsOnSave.mode": "all",
+
+"material-icon-theme.folders.associations": {
+  "infra":"app",
+  "entities":"class",
+  "schemas":"class",
+  "typeorm":"database",
+  "repositories":"mappings",
+  "http":"container",
+  "migrations":"tools",
+  "modules":"components",
+  "implementations":"core",
+  "dtos":"typescript",
+  "fakes":"mock"
+},
+"material-icon-theme.files.associations": {
+  "ormconfig.json":"database",
+  "tsconfig.json":"tune"
+},
+
+}
